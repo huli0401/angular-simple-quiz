@@ -1,0 +1,6 @@
+[
+    {"q": "Which state, the 38th to join the Union, is known as the Centennial State?", "r": 2, "ans": [{"a": "California"}, {"a": "New York"}, {"a": "Colorado"}, {"a": "Washington"}]},
+    {"q": "Which country did NOT become Communist after World War II?", "r": 0, "ans": [{"a": "Finland"}, {"a": "Poland"}, {"a": "Czechoslovakia"}, {"a": "East Germany"}]},
+    {"q": "Which of these popular drinks was invented in 1886 in Atlanta, Georgia?", "r": 0, "ans": [{"a": "Coca-Cola"}, {"a": "Vodka"}, {"a": "Beer"}, {"a": "Lemonade"}]},
+    {"q": "Which country saw its credit rating downgraded to \"junk\" status in 2010 after it needed a bailout from the EU?", "r": 1, "ans": [{"a": "Germany"}, {"a": "Greece"}, {"a": "Luxemgourg"}, {"a": "Norway"}]}
+]

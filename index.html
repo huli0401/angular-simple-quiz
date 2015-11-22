@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="App" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Simple quiz</title>
+        <link href="/static/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+        <link href="/static/css/default.css" rel="stylesheet" />
+        <base href="/" />
+    </head>
+    <body >
+        <div ng-include="headerTemplate"></div>
+        <div class="container">
+            <div ng-view></div>            
+        </div>
+        <div ng-include="footerTemplate"></div>
+        <script type="text/javascript" src="/static/js/angular/angular.min.js" ></script>
+        <script type="text/javascript" src="/static/js/angular/angular-route.min.js" ></script>
+        <script type="text/javascript" src="/static/js/angular/angular-sanitize.min.js" ></script>
+        <script type="text/javascript" src="/static/js/angular/angular-timer-all.min.js" ></script>
+        <script type="text/javascript" src="/app/app.js" ></script>
+        <script type="text/javascript" src="/app/controllers.js" ></script>
+    </body>
+</html>

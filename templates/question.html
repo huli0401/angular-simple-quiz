@@ -1,0 +1,13 @@
+
+<div>
+    Correct: {{correct}}
+</div>
+<div>
+    Remaining time: <timer interval="1000" countdown="10" finish-callback="expire()">{{seconds}} second{{secondsS}}</timer>
+</div>
+
+<h3>{{q}}</h3>
+
+<div class="answers">
+    <a ng-repeat="(key, item) in ans" ng-click="answer(key)" class="{{item.cs}} btn btn-default">{{item.a}}</a>
+</div>
